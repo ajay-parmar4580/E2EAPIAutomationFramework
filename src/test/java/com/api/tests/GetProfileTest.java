@@ -25,8 +25,6 @@ public class GetProfileTest {
         Assert.assertEquals(response.getStatusCode(),200);
         Assert.assertEquals(userProfileResponse.getEmail(),"ajaysingh.parmar4580@gmail.com");
         System.out.println(userProfileResponse.toString());
-
-
     }
 
 }
